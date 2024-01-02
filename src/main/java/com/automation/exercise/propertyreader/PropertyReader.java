@@ -1,4 +1,4 @@
-package propertyreader;
+package com.automation.exercise.propertyreader;
 
 import java.io.FileInputStream;
 import java.util.Properties;

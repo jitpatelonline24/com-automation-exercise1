@@ -10,7 +10,7 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
 
-public class ChectoutPage extends Utility {
+public class CheckoutPage extends Utility {
     private static final Logger log = LogManager.getLogger(CheckoutPage.class.getName());
 
     @CacheLookup

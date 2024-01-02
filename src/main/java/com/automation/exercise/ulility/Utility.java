@@ -1,7 +1,7 @@
-package ulility;
+package com.automation.exercise.ulility;
 
+import com.automation.exercise.browserfactory.ManageBrowser;
 import com.google.common.base.Function;
-import com.nopcommerce.demo.browserfactory.ManageBrowser;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;

@@ -3,15 +3,15 @@ package com.automation.exercise.runners;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-    @CucumberOptions(
-            features = "src/test/resources/features",    // content path of features folder
-            glue =  "com/automation/exercise/steps" ,     // sources path from steps folder
-            plugin = {"html:target/cucumber-reports/cucumber.html",
-                    "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-                    "json:target/cucumber-reports/cucumber.json"},
-            tags = "@regression"
+@CucumberOptions(
+        features = "src/test/resources/features",    // content path of features folder
+        glue =  "com/automation/exercise/steps" ,     // sources path from steps folder
+        plugin = {"html:target/cucumber-reports/cucumber.html",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                "json:target/cucumber-reports/cucumber.json"},
+        tags = "@regression"
 
-    )
-    public class RunSanityCukeTest extends AbstractTestNGCucumberTests {
-    }
+)
+public class RunRegressionCukeTest extends AbstractTestNGCucumberTests {
+}
 
