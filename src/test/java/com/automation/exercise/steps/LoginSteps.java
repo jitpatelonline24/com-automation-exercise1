@@ -28,7 +28,7 @@ public class LoginSteps {
     }
 
     @Then("I should see the login page text {string}")
-    public void iShouldSeeTheLoginPageText(String text) {
+    public void iShouldSeeTheLoginPageText1(String text) {
         Assert.assertEquals(new LoginPage().getTextFromLoginPage(text),text);
     }
 

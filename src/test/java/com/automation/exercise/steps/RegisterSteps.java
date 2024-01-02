@@ -7,10 +7,10 @@ import io.cucumber.java.en.When;
 import org.testng.Assert;
 
 public class RegisterSteps {
-    @Then("I should see the login page text {string}")
-    public void iShouldSeeTheLoginPageText(String text ) {
-        Assert.assertEquals(new LoginPage().getTextFromLoginPage(text),text);
-    }
+//    @Then("I should see the login page text {string}")
+//    public void iShouldSeeTheLoginPageText(String text ) {
+//        Assert.assertEquals(new LoginPage().getTextFromLoginPage(text),text);
+//    }
 
     @And("I send name {string} and email {string} to signup")
     public void iSendNameAndEmailToSignup(String name, String eMail) {
